@@ -1,0 +1,38 @@
+body{
+  padding: 0;
+  margin: 0;
+
+  	font-family: 'Trebuchet MS', sans-serif;
+
+}
+nav{
+	height: 60px;
+	width: 100%;
+	background-color: #22978d;
+	margin-bottom: 20px;
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	
+	display: flex;
+	 align-items: center;
+  justify-content: center;
+ flex: 1 1 auto;
+}
+nav li{
+	color: white;
+	float: left;
+	margin-right: 50px;
+	  align-self: flex-start;
+	  margin-top: 20px;
+
+}
+nav li a{
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+
+}

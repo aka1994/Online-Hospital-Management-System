@@ -1,0 +1,80 @@
+body{
+  padding: 0;
+  margin: 0;
+
+  	font-family: 'Trebuchet MS', sans-serif;
+
+}
+li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+margin-top: 80px;
+border: none;
+color: white;
+padding:9px;
+font-size: 20px;
+text-transform: uppercase;
+background-color: #444444;
+font-weight: bold;
+margin-bottom: 40px;
+text-align: center;
+letter-spacing:5px;
+-webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);}
+.submitin{
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+.title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+	margin-top: 5px;
+
+}
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="search"],
+input[type="time"],
+input[type="url"],
+input[type="password"],
+textarea,
+select 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+}
+table{
+	width: 80%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+h3{
+	text-transform: uppercase;
+	padding:0;
+	margin: 0;
+	margin-top: 40px;
+}
+span{
+	opacity: 0.6;
+}

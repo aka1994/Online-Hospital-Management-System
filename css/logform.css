@@ -1,0 +1,80 @@
+  body{
+  padding: 0;
+  margin: 0;
+  background-color: #444444;
+  color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+
+li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    background-color: white;
+}
+form{
+  width: 35%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20vh;
+}
+
+.submitin{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.title{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-top: 5px;
+
+}
+input[type="submit"]{
+margin-top: 5px;
+border: none;
+color: white;
+padding:9px;
+font-size: 18px;
+text-transform: uppercase;
+background-color: #4a85b9;
+font-weight: bold;
+margin-bottom: 40px;
+text-align: center;
+letter-spacing:5px;
+border-radius: 4px;}
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="search"],
+input[type="time"],
+input[type="url"],
+input[type="password"],
+textarea,
+select 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+}
+a{
+  color: #4a85b9;
+  margin-top: 10px;
+
+}
